@@ -1,4 +1,0 @@
-Invoking command in '/home/kentaro/mid360-simulation/build/champ_config': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/kentaro/mid360-simulation/build/champ_config -- -j8 -l8
-Invoked command in '/home/kentaro/mid360-simulation/build/champ_config' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/kentaro/mid360-simulation/build/champ_config -- -j8 -l8
-Invoking command in '/home/kentaro/mid360-simulation/build/champ_config': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/kentaro/mid360-simulation/build/champ_config
-Invoked command in '/home/kentaro/mid360-simulation/build/champ_config' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/kentaro/mid360-simulation/build/champ_config

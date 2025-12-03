@@ -1,6 +1,0 @@
-Invoking command in '/home/kentaro/mid360-simulation/build/champ': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/kentaro/mid360-simulation/src/unitree-go2-ros2/champ/champ -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/kentaro/mid360-simulation/install/champ
-Invoked command in '/home/kentaro/mid360-simulation/build/champ' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/kentaro/mid360-simulation/src/unitree-go2-ros2/champ/champ -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/kentaro/mid360-simulation/install/champ
-Invoking command in '/home/kentaro/mid360-simulation/build/champ': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/kentaro/mid360-simulation/build/champ -- -j8 -l8
-Invoked command in '/home/kentaro/mid360-simulation/build/champ' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/kentaro/mid360-simulation/build/champ -- -j8 -l8
-Invoking command in '/home/kentaro/mid360-simulation/build/champ': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/kentaro/mid360-simulation/build/champ
-Invoked command in '/home/kentaro/mid360-simulation/build/champ' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/kentaro/mid360-simulation/build/champ
