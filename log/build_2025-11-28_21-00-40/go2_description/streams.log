@@ -1,0 +1,91 @@
+[0.074s] Invoking command in '/home/kentaro/mid360-simulation/build/go2_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/kentaro/mid360-simulation/src/unitree-go2-ros2/robots/descriptions/go2_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/kentaro/mid360-simulation/install/go2_description
+[0.084s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.214s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.227s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.302s] -- Configuring done
+[0.307s] -- Generating done
+[0.309s] -- Build files have been written to: /home/kentaro/mid360-simulation/build/go2_description
+[0.312s] Invoked command in '/home/kentaro/mid360-simulation/build/go2_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/kentaro/mid360-simulation/src/unitree-go2-ros2/robots/descriptions/go2_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/kentaro/mid360-simulation/install/go2_description
+[0.315s] Invoking command in '/home/kentaro/mid360-simulation/build/go2_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/kentaro/mid360-simulation/build/go2_description -- -j8 -l8
+[0.350s] Invoked command in '/home/kentaro/mid360-simulation/build/go2_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/kentaro/mid360-simulation/build/go2_description -- -j8 -l8
+[0.353s] Invoking command in '/home/kentaro/mid360-simulation/build/go2_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/kentaro/mid360-simulation/build/go2_description
+[0.359s] -- Install configuration: ""
+[0.359s] -- Execute custom install script
+[0.360s] -- Up-to-date symlink: /home/kentaro/mid360-simulation/install/go2_description/share/go2_description/config/_joint_names_go2_description.yaml
+[0.360s] -- Up-to-date symlink: /home/kentaro/mid360-simulation/install/go2_description/share/go2_description/config/_robot_control.yaml
+[0.360s] -- Up-to-date symlink: /home/kentaro/mid360-simulation/install/go2_description/share/go2_description/config/ros_control/ros_control.yaml
+[0.361s] -- Up-to-date symlink: /home/kentaro/mid360-simulation/install/go2_description/share/go2_description/dae/base.dae
+[0.361s] -- Up-to-date symlink: /home/kentaro/mid360-simulation/install/go2_description/share/go2_description/dae/calf.dae
+[0.361s] -- Up-to-date symlink: /home/kentaro/mid360-simulation/install/go2_description/share/go2_description/dae/calf_mirror.dae
+[0.362s] -- Up-to-date symlink: /home/kentaro/mid360-simulation/install/go2_description/share/go2_description/dae/foot.dae
+[0.362s] -- Up-to-date symlink: /home/kentaro/mid360-simulation/install/go2_description/share/go2_description/dae/hip.dae
+[0.362s] -- Up-to-date symlink: /home/kentaro/mid360-simulation/install/go2_description/share/go2_description/dae/thigh.dae
+[0.362s] -- Up-to-date symlink: /home/kentaro/mid360-simulation/install/go2_description/share/go2_description/dae/thigh_mirror.dae
+[0.363s] -- Up-to-date symlink: /home/kentaro/mid360-simulation/install/go2_description/share/go2_description/launch/description.launch.py
+[0.363s] -- Up-to-date symlink: /home/kentaro/mid360-simulation/install/go2_description/share/go2_description/meshes/calf.dae
+[0.364s] -- Up-to-date symlink: /home/kentaro/mid360-simulation/install/go2_description/share/go2_description/meshes/calf_mirror.dae
+[0.364s] -- Up-to-date symlink: /home/kentaro/mid360-simulation/install/go2_description/share/go2_description/meshes/foot.dae
+[0.364s] -- Up-to-date symlink: /home/kentaro/mid360-simulation/install/go2_description/share/go2_description/meshes/hip.dae
+[0.364s] -- Up-to-date symlink: /home/kentaro/mid360-simulation/install/go2_description/share/go2_description/meshes/hokuyo.dae
+[0.364s] -- Up-to-date symlink: /home/kentaro/mid360-simulation/install/go2_description/share/go2_description/meshes/thigh.dae
+[0.364s] -- Up-to-date symlink: /home/kentaro/mid360-simulation/install/go2_description/share/go2_description/meshes/thigh_mirror.dae
+[0.365s] -- Up-to-date symlink: /home/kentaro/mid360-simulation/install/go2_description/share/go2_description/meshes/trunk.dae
+[0.365s] -- Up-to-date symlink: /home/kentaro/mid360-simulation/install/go2_description/share/go2_description/urdf/.history/go2_description_20230904144240.urdf
+[0.365s] -- Up-to-date symlink: /home/kentaro/mid360-simulation/install/go2_description/share/go2_description/urdf/.history/go2_description_20230904182446.urdf
+[0.365s] -- Up-to-date symlink: /home/kentaro/mid360-simulation/install/go2_description/share/go2_description/urdf/.history/go2_description_20230904193628.urdf
+[0.366s] -- Up-to-date symlink: /home/kentaro/mid360-simulation/install/go2_description/share/go2_description/urdf/.history/go2_description_20230904193644.urdf
+[0.366s] -- Up-to-date symlink: /home/kentaro/mid360-simulation/install/go2_description/share/go2_description/urdf/.history/go2_description_20230904193653.urdf
+[0.366s] -- Up-to-date symlink: /home/kentaro/mid360-simulation/install/go2_description/share/go2_description/urdf/.history/go2_description_20230904193705.urdf
+[0.366s] -- Up-to-date symlink: /home/kentaro/mid360-simulation/install/go2_description/share/go2_description/urdf/.history/go2_description_20230904193710.urdf
+[0.366s] -- Up-to-date symlink: /home/kentaro/mid360-simulation/install/go2_description/share/go2_description/urdf/.history/go2_description_20230904193711.urdf
+[0.366s] -- Up-to-date symlink: /home/kentaro/mid360-simulation/install/go2_description/share/go2_description/urdf/.history/go2_description_20230905112047.urdf
+[0.367s] -- Up-to-date symlink: /home/kentaro/mid360-simulation/install/go2_description/share/go2_description/urdf/.history/go2_description_20230905112143.urdf
+[0.367s] -- Up-to-date symlink: /home/kentaro/mid360-simulation/install/go2_description/share/go2_description/urdf/.history/go2_description_20230905112217.urdf
+[0.367s] -- Up-to-date symlink: /home/kentaro/mid360-simulation/install/go2_description/share/go2_description/urdf/.history/go2_description_20230905112735.urdf
+[0.367s] -- Up-to-date symlink: /home/kentaro/mid360-simulation/install/go2_description/share/go2_description/urdf/.history/go2_description_20230905112749.urdf
+[0.367s] -- Up-to-date symlink: /home/kentaro/mid360-simulation/install/go2_description/share/go2_description/urdf/.history/go2_description_20230905112752.urdf
+[0.367s] -- Up-to-date symlink: /home/kentaro/mid360-simulation/install/go2_description/share/go2_description/urdf/.history/go2_description_20230905112944.urdf
+[0.368s] -- Up-to-date symlink: /home/kentaro/mid360-simulation/install/go2_description/share/go2_description/urdf/.history/go2_description_20230905113000.urdf
+[0.368s] -- Up-to-date symlink: /home/kentaro/mid360-simulation/install/go2_description/share/go2_description/urdf/.history/go2_description_20230905113059.urdf
+[0.368s] -- Up-to-date symlink: /home/kentaro/mid360-simulation/install/go2_description/share/go2_description/urdf/.history/go2_description_20230905113633.urdf
+[0.368s] -- Up-to-date symlink: /home/kentaro/mid360-simulation/install/go2_description/share/go2_description/urdf/.history/go2_description_20230905113754.urdf
+[0.368s] -- Up-to-date symlink: /home/kentaro/mid360-simulation/install/go2_description/share/go2_description/urdf/.history/go2_description_20230905113755.urdf
+[0.369s] -- Up-to-date symlink: /home/kentaro/mid360-simulation/install/go2_description/share/go2_description/urdf/.history/go2_description_20230905113839.urdf
+[0.370s] -- Up-to-date symlink: /home/kentaro/mid360-simulation/install/go2_description/share/go2_description/urdf/.history/go2_description_20230905113840.urdf
+[0.370s] -- Up-to-date symlink: /home/kentaro/mid360-simulation/install/go2_description/share/go2_description/urdf/.history/go2_description_20230905114759.urdf
+[0.370s] -- Up-to-date symlink: /home/kentaro/mid360-simulation/install/go2_description/share/go2_description/urdf/.history/go2_description_20230905114819.urdf
+[0.370s] -- Up-to-date symlink: /home/kentaro/mid360-simulation/install/go2_description/share/go2_description/urdf/.history/go2_description_20230905115021.urdf
+[0.370s] -- Up-to-date symlink: /home/kentaro/mid360-simulation/install/go2_description/share/go2_description/urdf/.history/go2_description_20230905115022.urdf
+[0.370s] -- Up-to-date symlink: /home/kentaro/mid360-simulation/install/go2_description/share/go2_description/urdf/.history/go2_description_20230905115040.urdf
+[0.371s] -- Up-to-date symlink: /home/kentaro/mid360-simulation/install/go2_description/share/go2_description/urdf/.history/go2_description_20230905115215.urdf
+[0.371s] -- Up-to-date symlink: /home/kentaro/mid360-simulation/install/go2_description/share/go2_description/urdf/.history/go2_description_20230905115226.urdf
+[0.371s] -- Up-to-date symlink: /home/kentaro/mid360-simulation/install/go2_description/share/go2_description/urdf/.history/go2_description_20230905115300.urdf
+[0.371s] -- Up-to-date symlink: /home/kentaro/mid360-simulation/install/go2_description/share/go2_description/urdf/.history/go2_description_20230905115313.urdf
+[0.371s] -- Up-to-date symlink: /home/kentaro/mid360-simulation/install/go2_description/share/go2_description/urdf/Amended_collision_model.png
+[0.371s] -- Up-to-date symlink: /home/kentaro/mid360-simulation/install/go2_description/share/go2_description/urdf/Normal_collision_model.png
+[0.372s] -- Up-to-date symlink: /home/kentaro/mid360-simulation/install/go2_description/share/go2_description/urdf/go2_description.urdf
+[0.372s] -- Up-to-date symlink: /home/kentaro/mid360-simulation/install/go2_description/share/go2_description/xacro/const.xacro
+[0.372s] -- Up-to-date symlink: /home/kentaro/mid360-simulation/install/go2_description/share/go2_description/xacro/gazebo.xacro
+[0.372s] -- Up-to-date symlink: /home/kentaro/mid360-simulation/install/go2_description/share/go2_description/xacro/laser.xacro
+[0.372s] -- Up-to-date symlink: /home/kentaro/mid360-simulation/install/go2_description/share/go2_description/xacro/leg.xacro
+[0.373s] -- Up-to-date symlink: /home/kentaro/mid360-simulation/install/go2_description/share/go2_description/xacro/materials.xacro
+[0.373s] -- Up-to-date symlink: /home/kentaro/mid360-simulation/install/go2_description/share/go2_description/xacro/robot.xacro
+[0.373s] -- Up-to-date symlink: /home/kentaro/mid360-simulation/install/go2_description/share/go2_description/xacro/robot_VLP.xacro
+[0.373s] -- Up-to-date symlink: /home/kentaro/mid360-simulation/install/go2_description/share/go2_description/xacro/transmission.xacro
+[0.373s] -- Up-to-date symlink: /home/kentaro/mid360-simulation/install/go2_description/share/go2_description/xacro/velodyne.xacro
+[0.374s] -- Up-to-date symlink: /home/kentaro/mid360-simulation/install/go2_description/share/ament_index/resource_index/package_run_dependencies/go2_description
+[0.374s] -- Up-to-date symlink: /home/kentaro/mid360-simulation/install/go2_description/share/ament_index/resource_index/parent_prefix_path/go2_description
+[0.374s] -- Up-to-date symlink: /home/kentaro/mid360-simulation/install/go2_description/share/go2_description/environment/ament_prefix_path.sh
+[0.374s] -- Up-to-date symlink: /home/kentaro/mid360-simulation/install/go2_description/share/go2_description/environment/ament_prefix_path.dsv
+[0.374s] -- Up-to-date symlink: /home/kentaro/mid360-simulation/install/go2_description/share/go2_description/environment/path.sh
+[0.374s] -- Up-to-date symlink: /home/kentaro/mid360-simulation/install/go2_description/share/go2_description/environment/path.dsv
+[0.375s] -- Up-to-date symlink: /home/kentaro/mid360-simulation/install/go2_description/share/go2_description/local_setup.bash
+[0.376s] -- Up-to-date symlink: /home/kentaro/mid360-simulation/install/go2_description/share/go2_description/local_setup.sh
+[0.376s] -- Up-to-date symlink: /home/kentaro/mid360-simulation/install/go2_description/share/go2_description/local_setup.zsh
+[0.376s] -- Up-to-date symlink: /home/kentaro/mid360-simulation/install/go2_description/share/go2_description/local_setup.dsv
+[0.376s] -- Symlinking: /home/kentaro/mid360-simulation/install/go2_description/share/go2_description/package.dsv
+[0.383s] -- Up-to-date symlink: /home/kentaro/mid360-simulation/install/go2_description/share/ament_index/resource_index/packages/go2_description
+[0.384s] -- Up-to-date symlink: /home/kentaro/mid360-simulation/install/go2_description/share/go2_description/cmake/go2_descriptionConfig.cmake
+[0.384s] -- Up-to-date symlink: /home/kentaro/mid360-simulation/install/go2_description/share/go2_description/cmake/go2_descriptionConfig-version.cmake
+[0.384s] -- Up-to-date symlink: /home/kentaro/mid360-simulation/install/go2_description/share/go2_description/package.xml
+[0.388s] Invoked command in '/home/kentaro/mid360-simulation/build/go2_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/kentaro/mid360-simulation/build/go2_description

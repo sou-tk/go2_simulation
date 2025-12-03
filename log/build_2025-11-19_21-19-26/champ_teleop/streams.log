@@ -1,0 +1,43 @@
+[0.031s] Invoking command in '/home/kentaro/mid360-simulation/build/champ_teleop': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/kentaro/mid360-simulation/src/unitree-go2-ros2/champ_teleop -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/kentaro/mid360-simulation/install/champ_teleop
+[1.121s] -- The C compiler identification is GNU 11.4.0
+[1.121s] -- The CXX compiler identification is GNU 11.4.0
+[1.121s] -- Detecting C compiler ABI info
+[1.121s] -- Detecting C compiler ABI info - done
+[1.121s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.122s] -- Detecting C compile features
+[1.122s] -- Detecting C compile features - done
+[1.122s] -- Detecting CXX compiler ABI info
+[1.122s] -- Detecting CXX compiler ABI info - done
+[1.122s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.122s] -- Detecting CXX compile features
+[1.122s] -- Detecting CXX compile features - done
+[1.122s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.122s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.122s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.122s] -- Configuring done
+[1.122s] -- Generating done
+[1.122s] -- Build files have been written to: /home/kentaro/mid360-simulation/build/champ_teleop
+[1.129s] Invoked command in '/home/kentaro/mid360-simulation/build/champ_teleop' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/kentaro/mid360-simulation/src/unitree-go2-ros2/champ_teleop -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/kentaro/mid360-simulation/install/champ_teleop
+[1.130s] Invoking command in '/home/kentaro/mid360-simulation/build/champ_teleop': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/kentaro/mid360-simulation/build/champ_teleop -- -j8 -l8
+[1.193s] Invoked command in '/home/kentaro/mid360-simulation/build/champ_teleop' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/kentaro/mid360-simulation/build/champ_teleop -- -j8 -l8
+[1.194s] Invoking command in '/home/kentaro/mid360-simulation/build/champ_teleop': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/kentaro/mid360-simulation/build/champ_teleop
+[1.208s] -- Install configuration: ""
+[1.208s] -- Execute custom install script
+[1.208s] -- Symlinking: /home/kentaro/mid360-simulation/install/champ_teleop/share/champ_teleop/launch/teleop.launch.py
+[1.216s] -- Symlinking: /home/kentaro/mid360-simulation/install/champ_teleop/lib/champ_teleop/champ_teleop.py
+[1.228s] -- Symlinking: /home/kentaro/mid360-simulation/install/champ_teleop/share/ament_index/resource_index/package_run_dependencies/champ_teleop
+[1.241s] -- Symlinking: /home/kentaro/mid360-simulation/install/champ_teleop/share/ament_index/resource_index/parent_prefix_path/champ_teleop
+[1.254s] -- Symlinking: /home/kentaro/mid360-simulation/install/champ_teleop/share/champ_teleop/environment/ament_prefix_path.sh
+[1.267s] -- Symlinking: /home/kentaro/mid360-simulation/install/champ_teleop/share/champ_teleop/environment/ament_prefix_path.dsv
+[1.281s] -- Symlinking: /home/kentaro/mid360-simulation/install/champ_teleop/share/champ_teleop/environment/path.sh
+[1.295s] -- Symlinking: /home/kentaro/mid360-simulation/install/champ_teleop/share/champ_teleop/environment/path.dsv
+[1.313s] -- Symlinking: /home/kentaro/mid360-simulation/install/champ_teleop/share/champ_teleop/local_setup.bash
+[1.329s] -- Symlinking: /home/kentaro/mid360-simulation/install/champ_teleop/share/champ_teleop/local_setup.sh
+[1.347s] -- Symlinking: /home/kentaro/mid360-simulation/install/champ_teleop/share/champ_teleop/local_setup.zsh
+[1.362s] -- Symlinking: /home/kentaro/mid360-simulation/install/champ_teleop/share/champ_teleop/local_setup.dsv
+[1.380s] -- Symlinking: /home/kentaro/mid360-simulation/install/champ_teleop/share/champ_teleop/package.dsv
+[1.395s] -- Symlinking: /home/kentaro/mid360-simulation/install/champ_teleop/share/ament_index/resource_index/packages/champ_teleop
+[1.411s] -- Symlinking: /home/kentaro/mid360-simulation/install/champ_teleop/share/champ_teleop/cmake/champ_teleopConfig.cmake
+[1.423s] -- Symlinking: /home/kentaro/mid360-simulation/install/champ_teleop/share/champ_teleop/cmake/champ_teleopConfig-version.cmake
+[1.436s] -- Symlinking: /home/kentaro/mid360-simulation/install/champ_teleop/share/champ_teleop/package.xml
+[1.461s] Invoked command in '/home/kentaro/mid360-simulation/build/champ_teleop' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/kentaro/mid360-simulation/build/champ_teleop

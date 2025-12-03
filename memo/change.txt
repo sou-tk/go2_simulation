@@ -1,0 +1,96 @@
+mid360のデータのサンプル数を減らす
+~/mid360-simulation/src/unitree-go2-ros2/robots/descriptions/go2_description/xacro/robot.xacro
+の以下の部分を修正
+ <gazebo reference="mid360_link">
+        <sensor type="ray" name="mid360_sensor">
+            <pose>0 0 0 0 0 0</pose>
+            <visualize>false</visualize>
+            <update_rate>10</update_rate>
+            <ray>
+                <scan>
+                <horizontal>
+                　　#180に変更
+                    <samples>180</samples>
+                    <resolution>1</resolution>
+                    <min_angle>-3.14159</min_angle>
+                    <max_angle>3.14159</max_angle>
+                </horizontal>
+                <vertical>
+                    #8に変更
+                    <samples>8</samples>
+                    <resolution>1</resolution>
+                    <min_angle>-0.26</min_angle> <max_angle>0.26</max_angle>  </vertical>
+                </scan>
+                <range>
+                <min>0.1</min>
+                <max>40.0</max>
+                <resolution>0.01</resolution>
+                </range>
+                <noise>
+                <type>gaussian</type>
+                <mean>0.0</mean>
+                <stddev>0.01</stddev>
+                </noise>
+            </ray>
+            <plugin name="mid360_controller" filename="libgazebo_ros_ray_sensor.so">
+                <ros>
+                <namespace>/</namespace>
+                <remapping>~/out:=mid360/points</remapping>
+                </ros>
+                <output_type>sensor_msgs/PointCloud2</output_type>
+                <frame_name>mid360_link</frame_name>
+            </plugin>
+        </sensor>
+    </gazebo>
+</robot>
+
+ ----------------------------------------------------------------------------------------------
+ シミュレーションがだすodomを停止（代わりに作成したpythonスクリプトから出す）
+state_estimation
+footprint_to_odom_ekf: odom → base_footprint のtf
+base_to_footprint_ekf: base_footprint → base_link のtf
+を停止
+/mid360-simulation/src/unitree-go2-ros2/champ/champ_bringup/launch/bringup.launch.py
+のstate_estimationと base_to_footprint_ekfと footprint_to_odom_ekfをコメントアウト
+
+return LaunchDescription部分の
+state_estimator_node,
+base_to_footprint_ekf,
+footprint_to_odom_ekf,
+をコメントアウト
+
+------------------------------------------------------------------------------------------------
+
+真値odom（odom/ground_truth）の正常生成（ノイズを消す）、tfの無効化
+~/mid360-simulation/src/unitree-go2-ros2/robots/descriptions/go2_description/xacro/gazebo.xacro
+を書き換え
+
+<gazebo>
+      <plugin name="p3d_base_controller" filename="libgazebo_ros_p3d.so">
+        <ros>
+            <remapping>odom:=odom/ground_truth</remapping>
+        </ros>
+
+        <body_name>base_link</body_name>
+        <frame_name>world</frame_name>
+        <update_rate>10.0</update_rate>
+        <xyz_offset>0 0 0</xyz_offset>
+        <rpy_offset>0 0 0</rpy_offset>
+        //ノイズの値を0.0に変更
+        <gaussian_noise>0.0</gaussian_noise>
+        //以下の2文を追加
+	<publish_odom_tf>false</publish_odom_tf>
+        <publish_odom>true</publish_odom>
+    </plugin>
+</gazebo>
+
+------------------------------------------------------------------------------------------------
+今の構成
+	    gazebo                        pythonスクリプト			SLAM Toolbox
+       トピックodom/ground_truth   →        tf odom-base_link    		→ 　		
+       停止 tf odom-base_link
+          odom-footprint
+	  footprint-base_link
+	 
+	   gazebo	　　　	　　2D変換（pointcloud_to_laserscan）						
+   トピック mid360/cloudpoints　 →    　            トピック /scan			→

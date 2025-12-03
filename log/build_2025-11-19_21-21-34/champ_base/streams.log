@@ -1,0 +1,105 @@
+[0.032s] Invoking command in '/home/kentaro/mid360-simulation/build/champ_base': AMENT_PREFIX_PATH=/home/kentaro/mid360-simulation/install/champ_msgs:/home/kentaro/mid360-simulation/install/champ:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kentaro/mid360-simulation/install/champ_msgs:/home/kentaro/mid360-simulation/install/champ:/home/kentaro/mid360-simulation/install/ros2_livox_simulation:/home/kentaro/mid360-simulation/install/livox_ros_driver2:/home/kentaro/unitree-go2-ros2/install/go2_description:/home/kentaro/unitree-go2-ros2/install/go2_config:/home/kentaro/unitree-go2-ros2/install/champ_teleop:/home/kentaro/unitree-go2-ros2/install/champ_navigation:/home/kentaro/unitree-go2-ros2/install/champ_gazebo:/home/kentaro/unitree-go2-ros2/install/champ_bringup:/home/kentaro/unitree-go2-ros2/install/champ_base:/home/kentaro/unitree-go2-ros2/install/champ_msgs:/home/kentaro/unitree-go2-ros2/install/champ_description:/home/kentaro/unitree-go2-ros2/install/champ_config:/home/kentaro/unitree-go2-ros2/install/champ:/opt/ros/humble LD_LIBRARY_PATH=/home/kentaro/mid360-simulation/install/champ_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/kentaro/mid360-simulation/install/champ_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/kentaro/mid360-simulation/src/unitree-go2-ros2/champ/champ_base -DROS_EDITION=ROS2 -DHUMBLE=ON -DHUMBLE_ROS=humble -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/kentaro/mid360-simulation/install/champ_base
+[0.199s] -- The C compiler identification is GNU 11.4.0
+[0.359s] -- The CXX compiler identification is GNU 11.4.0
+[0.380s] -- Detecting C compiler ABI info
+[0.509s] -- Detecting C compiler ABI info - done
+[0.527s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.527s] -- Detecting C compile features
+[0.528s] -- Detecting C compile features - done
+[0.535s] -- Detecting CXX compiler ABI info
+[0.741s] -- Detecting CXX compiler ABI info - done
+[0.769s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.769s] -- Detecting CXX compile features
+[0.770s] -- Detecting CXX compile features - done
+[0.784s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.153s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.268s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.355s] -- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)
+[1.448s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.460s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.483s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.509s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.545s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.643s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.650s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.841s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.894s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.963s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.981s] -- Looking for pthread.h
+[2.116s] -- Looking for pthread.h - found
+[2.122s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.238s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.242s] -- Found Threads: TRUE  
+[2.383s] -- Found rclpy: 3.3.17 (/opt/ros/humble/share/rclpy/cmake)
+[2.383s] -- Found champ_msgs: 0.1.0 (/home/kentaro/mid360-simulation/install/champ_msgs/share/champ_msgs/cmake)
+[2.495s] -- Found visualization_msgs: 4.9.0 (/opt/ros/humble/share/visualization_msgs/cmake)
+[2.612s] -- Found trajectory_msgs: 4.9.0 (/opt/ros/humble/share/trajectory_msgs/cmake)
+[2.670s] -- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)
+[2.752s] -- Found tf2_ros: 0.25.16 (/opt/ros/humble/share/tf2_ros/cmake)
+[3.052s] -- Found urdf: 2.6.1 (/opt/ros/humble/share/urdf/cmake)
+[3.106s] -- Found champ: 0.1.0 (/home/kentaro/mid360-simulation/install/champ/share/champ/cmake)
+[3.383s] -- Configuring done
+[3.552s] -- Generating done
+[3.558s] [33mCMake Warning:
+[3.558s]   Manually-specified variables were not used by the project:
+[3.558s] 
+[3.559s]     HUMBLE
+[3.559s]     HUMBLE_ROS
+[3.559s]     ROS_EDITION
+[3.561s] 
+[3.562s] [0m
+[3.622s] -- Build files have been written to: /home/kentaro/mid360-simulation/build/champ_base
+[3.665s] Invoked command in '/home/kentaro/mid360-simulation/build/champ_base' returned '0': AMENT_PREFIX_PATH=/home/kentaro/mid360-simulation/install/champ_msgs:/home/kentaro/mid360-simulation/install/champ:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kentaro/mid360-simulation/install/champ_msgs:/home/kentaro/mid360-simulation/install/champ:/home/kentaro/mid360-simulation/install/ros2_livox_simulation:/home/kentaro/mid360-simulation/install/livox_ros_driver2:/home/kentaro/unitree-go2-ros2/install/go2_description:/home/kentaro/unitree-go2-ros2/install/go2_config:/home/kentaro/unitree-go2-ros2/install/champ_teleop:/home/kentaro/unitree-go2-ros2/install/champ_navigation:/home/kentaro/unitree-go2-ros2/install/champ_gazebo:/home/kentaro/unitree-go2-ros2/install/champ_bringup:/home/kentaro/unitree-go2-ros2/install/champ_base:/home/kentaro/unitree-go2-ros2/install/champ_msgs:/home/kentaro/unitree-go2-ros2/install/champ_description:/home/kentaro/unitree-go2-ros2/install/champ_config:/home/kentaro/unitree-go2-ros2/install/champ:/opt/ros/humble LD_LIBRARY_PATH=/home/kentaro/mid360-simulation/install/champ_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/kentaro/mid360-simulation/install/champ_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/kentaro/mid360-simulation/src/unitree-go2-ros2/champ/champ_base -DROS_EDITION=ROS2 -DHUMBLE=ON -DHUMBLE_ROS=humble -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/kentaro/mid360-simulation/install/champ_base
+[3.666s] Invoking command in '/home/kentaro/mid360-simulation/build/champ_base': AMENT_PREFIX_PATH=/home/kentaro/mid360-simulation/install/champ_msgs:/home/kentaro/mid360-simulation/install/champ:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kentaro/mid360-simulation/install/champ_msgs:/home/kentaro/mid360-simulation/install/champ:/home/kentaro/mid360-simulation/install/ros2_livox_simulation:/home/kentaro/mid360-simulation/install/livox_ros_driver2:/home/kentaro/unitree-go2-ros2/install/go2_description:/home/kentaro/unitree-go2-ros2/install/go2_config:/home/kentaro/unitree-go2-ros2/install/champ_teleop:/home/kentaro/unitree-go2-ros2/install/champ_navigation:/home/kentaro/unitree-go2-ros2/install/champ_gazebo:/home/kentaro/unitree-go2-ros2/install/champ_bringup:/home/kentaro/unitree-go2-ros2/install/champ_base:/home/kentaro/unitree-go2-ros2/install/champ_msgs:/home/kentaro/unitree-go2-ros2/install/champ_description:/home/kentaro/unitree-go2-ros2/install/champ_config:/home/kentaro/unitree-go2-ros2/install/champ:/opt/ros/humble LD_LIBRARY_PATH=/home/kentaro/mid360-simulation/install/champ_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/kentaro/mid360-simulation/install/champ_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/kentaro/mid360-simulation/build/champ_base -- -j8 -l8
+[3.851s] [  8%] [32mBuilding CXX object CMakeFiles/message_relay.dir/src/message_relay.cpp.o[0m
+[3.897s] [ 16%] [32mBuilding CXX object CMakeFiles/state_estimation.dir/src/state_estimation.cpp.o[0m
+[3.898s] [ 25%] [32mBuilding CXX object CMakeFiles/quadruped_controller.dir/src/quadruped_controller.cpp.o[0m
+[53.870s] [ 33%] [32m[1mLinking CXX shared library libquadruped_controller.so[0m
+[56.015s] [ 33%] Built target quadruped_controller
+[56.067s] [ 41%] [32mBuilding CXX object CMakeFiles/quadruped_controller_node.dir/src/quadruped_controller_node.cpp.o[0m
+[62.710s] [ 50%] [32m[1mLinking CXX shared library libmessage_relay.so[0m
+[66.508s] [ 50%] Built target message_relay
+[66.583s] [ 58%] [32mBuilding CXX object CMakeFiles/message_relay_node.dir/src/message_relay_node.cpp.o[0m
+[68.086s] [ 66%] [32m[1mLinking CXX executable quadruped_controller_node[0m
+[69.013s] [ 66%] Built target quadruped_controller_node
+[71.558s] [ 75%] [32m[1mLinking CXX shared library libstate_estimation.so[0m
+[75.118s] [ 75%] Built target state_estimation
+[75.172s] [ 83%] [32mBuilding CXX object CMakeFiles/state_estimation_node.dir/src/state_estimation_node.cpp.o[0m
+[76.745s] [ 91%] [32m[1mLinking CXX executable message_relay_node[0m
+[77.906s] [ 91%] Built target message_relay_node
+[86.796s] [100%] [32m[1mLinking CXX executable state_estimation_node[0m
+[87.515s] [100%] Built target state_estimation_node
+[87.550s] Invoked command in '/home/kentaro/mid360-simulation/build/champ_base' returned '0': AMENT_PREFIX_PATH=/home/kentaro/mid360-simulation/install/champ_msgs:/home/kentaro/mid360-simulation/install/champ:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kentaro/mid360-simulation/install/champ_msgs:/home/kentaro/mid360-simulation/install/champ:/home/kentaro/mid360-simulation/install/ros2_livox_simulation:/home/kentaro/mid360-simulation/install/livox_ros_driver2:/home/kentaro/unitree-go2-ros2/install/go2_description:/home/kentaro/unitree-go2-ros2/install/go2_config:/home/kentaro/unitree-go2-ros2/install/champ_teleop:/home/kentaro/unitree-go2-ros2/install/champ_navigation:/home/kentaro/unitree-go2-ros2/install/champ_gazebo:/home/kentaro/unitree-go2-ros2/install/champ_bringup:/home/kentaro/unitree-go2-ros2/install/champ_base:/home/kentaro/unitree-go2-ros2/install/champ_msgs:/home/kentaro/unitree-go2-ros2/install/champ_description:/home/kentaro/unitree-go2-ros2/install/champ_config:/home/kentaro/unitree-go2-ros2/install/champ:/opt/ros/humble LD_LIBRARY_PATH=/home/kentaro/mid360-simulation/install/champ_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/kentaro/mid360-simulation/install/champ_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/kentaro/mid360-simulation/build/champ_base -- -j8 -l8
+[87.552s] Invoking command in '/home/kentaro/mid360-simulation/build/champ_base': AMENT_PREFIX_PATH=/home/kentaro/mid360-simulation/install/champ_msgs:/home/kentaro/mid360-simulation/install/champ:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kentaro/mid360-simulation/install/champ_msgs:/home/kentaro/mid360-simulation/install/champ:/home/kentaro/mid360-simulation/install/ros2_livox_simulation:/home/kentaro/mid360-simulation/install/livox_ros_driver2:/home/kentaro/unitree-go2-ros2/install/go2_description:/home/kentaro/unitree-go2-ros2/install/go2_config:/home/kentaro/unitree-go2-ros2/install/champ_teleop:/home/kentaro/unitree-go2-ros2/install/champ_navigation:/home/kentaro/unitree-go2-ros2/install/champ_gazebo:/home/kentaro/unitree-go2-ros2/install/champ_bringup:/home/kentaro/unitree-go2-ros2/install/champ_base:/home/kentaro/unitree-go2-ros2/install/champ_msgs:/home/kentaro/unitree-go2-ros2/install/champ_description:/home/kentaro/unitree-go2-ros2/install/champ_config:/home/kentaro/unitree-go2-ros2/install/champ:/opt/ros/humble LD_LIBRARY_PATH=/home/kentaro/mid360-simulation/install/champ_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/kentaro/mid360-simulation/install/champ_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/kentaro/mid360-simulation/build/champ_base
+[87.562s] -- Install configuration: ""
+[87.563s] -- Execute custom install script
+[87.564s] -- Symlinking: /home/kentaro/mid360-simulation/install/champ_base/share/champ_base/config/ekf/base_to_footprint.yaml
+[87.575s] -- Symlinking: /home/kentaro/mid360-simulation/install/champ_base/share/champ_base/config/ekf/footprint_to_odom.yaml
+[87.588s] -- Symlinking: /home/kentaro/mid360-simulation/install/champ_base/share/champ_base/config/velocity_smoother/velocity_smoother.yaml
+[87.599s] -- Symlinking: /home/kentaro/mid360-simulation/install/champ_base/lib/libquadruped_controller.so
+[87.611s] -- Symlinking: /home/kentaro/mid360-simulation/install/champ_base/bin/quadruped_controller_node
+[87.623s] -- Symlinking: /home/kentaro/mid360-simulation/install/champ_base/lib/libmessage_relay.so
+[87.634s] -- Symlinking: /home/kentaro/mid360-simulation/install/champ_base/bin/message_relay_node
+[87.646s] -- Symlinking: /home/kentaro/mid360-simulation/install/champ_base/lib/libstate_estimation.so
+[87.658s] -- Symlinking: /home/kentaro/mid360-simulation/install/champ_base/bin/state_estimation_node
+[87.670s] -- Symlinking: /home/kentaro/mid360-simulation/install/champ_base/lib/champ_base/quadruped_controller_node
+[87.682s] -- Symlinking: /home/kentaro/mid360-simulation/install/champ_base/lib/champ_base/message_relay_node
+[87.693s] -- Symlinking: /home/kentaro/mid360-simulation/install/champ_base/lib/champ_base/state_estimation_node
+[87.705s] -- Symlinking: /home/kentaro/mid360-simulation/install/champ_base/share/ament_index/resource_index/package_run_dependencies/champ_base
+[87.717s] -- Symlinking: /home/kentaro/mid360-simulation/install/champ_base/share/ament_index/resource_index/parent_prefix_path/champ_base
+[87.729s] -- Symlinking: /home/kentaro/mid360-simulation/install/champ_base/share/champ_base/environment/ament_prefix_path.sh
+[87.740s] -- Symlinking: /home/kentaro/mid360-simulation/install/champ_base/share/champ_base/environment/ament_prefix_path.dsv
+[87.752s] -- Symlinking: /home/kentaro/mid360-simulation/install/champ_base/share/champ_base/environment/path.sh
+[87.764s] -- Symlinking: /home/kentaro/mid360-simulation/install/champ_base/share/champ_base/environment/path.dsv
+[87.776s] -- Symlinking: /home/kentaro/mid360-simulation/install/champ_base/share/champ_base/local_setup.bash
+[87.788s] -- Symlinking: /home/kentaro/mid360-simulation/install/champ_base/share/champ_base/local_setup.sh
+[87.799s] -- Symlinking: /home/kentaro/mid360-simulation/install/champ_base/share/champ_base/local_setup.zsh
+[87.811s] -- Symlinking: /home/kentaro/mid360-simulation/install/champ_base/share/champ_base/local_setup.dsv
+[87.822s] -- Symlinking: /home/kentaro/mid360-simulation/install/champ_base/share/champ_base/package.dsv
+[87.834s] -- Symlinking: /home/kentaro/mid360-simulation/install/champ_base/share/ament_index/resource_index/packages/champ_base
+[87.846s] -- Symlinking: /home/kentaro/mid360-simulation/install/champ_base/share/champ_base/cmake/ament_cmake_export_include_directories-extras.cmake
+[87.857s] -- Symlinking: /home/kentaro/mid360-simulation/install/champ_base/share/champ_base/cmake/ament_cmake_export_dependencies-extras.cmake
+[87.869s] -- Symlinking: /home/kentaro/mid360-simulation/install/champ_base/share/champ_base/cmake/champ_baseConfig.cmake
+[87.880s] -- Symlinking: /home/kentaro/mid360-simulation/install/champ_base/share/champ_base/cmake/champ_baseConfig-version.cmake
+[87.892s] -- Symlinking: /home/kentaro/mid360-simulation/install/champ_base/share/champ_base/package.xml
+[87.906s] Invoked command in '/home/kentaro/mid360-simulation/build/champ_base' returned '0': AMENT_PREFIX_PATH=/home/kentaro/mid360-simulation/install/champ_msgs:/home/kentaro/mid360-simulation/install/champ:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kentaro/mid360-simulation/install/champ_msgs:/home/kentaro/mid360-simulation/install/champ:/home/kentaro/mid360-simulation/install/ros2_livox_simulation:/home/kentaro/mid360-simulation/install/livox_ros_driver2:/home/kentaro/unitree-go2-ros2/install/go2_description:/home/kentaro/unitree-go2-ros2/install/go2_config:/home/kentaro/unitree-go2-ros2/install/champ_teleop:/home/kentaro/unitree-go2-ros2/install/champ_navigation:/home/kentaro/unitree-go2-ros2/install/champ_gazebo:/home/kentaro/unitree-go2-ros2/install/champ_bringup:/home/kentaro/unitree-go2-ros2/install/champ_base:/home/kentaro/unitree-go2-ros2/install/champ_msgs:/home/kentaro/unitree-go2-ros2/install/champ_description:/home/kentaro/unitree-go2-ros2/install/champ_config:/home/kentaro/unitree-go2-ros2/install/champ:/opt/ros/humble LD_LIBRARY_PATH=/home/kentaro/mid360-simulation/install/champ_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/kentaro/mid360-simulation/install/champ_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/kentaro/mid360-simulation/build/champ_base

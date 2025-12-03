@@ -1,0 +1,140 @@
+[0.013s] Invoking command in '/home/kentaro/mid360-simulation/build/ros2_livox_simulation': AMENT_PREFIX_PATH=/home/kentaro/mid360-simulation/install/livox_ros_driver2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kentaro/mid360-simulation/install/livox_ros_driver2:/opt/ros/humble LD_LIBRARY_PATH=/home/kentaro/mid360-simulation/install/livox_ros_driver2/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/kentaro/mid360-simulation/install/livox_ros_driver2/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/kentaro/mid360-simulation/src/livox_laser_simulation_RO2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/kentaro/mid360-simulation/install/ros2_livox_simulation
+[0.026s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.156s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.164s] -- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)
+[0.194s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.196s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.203s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.213s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.226s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.261s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.262s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.364s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.416s] -- Found gazebo_dev: 3.9.0 (/opt/ros/humble/share/gazebo_dev/cmake)
+[0.444s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[0.462s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time 
+[0.471s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[0.472s] -- Looking for ignition-math6 -- found version 6.15.1
+[0.477s] -- Searching for dependencies of ignition-math6
+[0.478s] -- Looking for OGRE...
+[0.483s] -- Found Ogre Ghadamon (1.9.0)
+[0.484s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[0.493s] -- Looking for OGRE_Paging...
+[0.493s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[0.493s] -- Looking for OGRE_Terrain...
+[0.493s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[0.494s] -- Looking for OGRE_Property...
+[0.494s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[0.494s] -- Looking for OGRE_RTShaderSystem...
+[0.494s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[0.494s] -- Looking for OGRE_Volume...
+[0.494s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[0.494s] -- Looking for OGRE_Overlay...
+[0.494s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[0.600s] -- Looking for ignition-math6 -- found version 6.15.1
+[0.601s] -- Looking for ignition-transport8 -- found version 8.2.1
+[0.601s] -- Searching for dependencies of ignition-transport8
+[0.618s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[0.628s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[0.633s] -- Checking for module 'libzmq >= 4'
+[0.644s] --   Found libzmq , version 4.3.4
+[0.676s] -- Checking for module 'uuid'
+[0.687s] --   Found uuid, version 2.37.2
+[0.712s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[0.713s] -- Searching for dependencies of ignition-msgs5
+[0.731s] -- Looking for ignition-math6 -- found version 6.15.1
+[0.736s] -- Checking for module 'tinyxml2'
+[0.754s] --   Found tinyxml2, version 9.0.0
+[0.780s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[0.780s] -- Looking for ignition-common3 -- found version 3.14.0
+[0.781s] -- Searching for dependencies of ignition-common3
+[0.781s] -- Looking for dlfcn.h - found
+[0.781s] -- Looking for libdl - found
+[0.792s] -- Searching for <ignition-common3> component [graphics]
+[0.792s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[0.792s] -- Searching for dependencies of ignition-common3-graphics
+[0.793s] -- Looking for ignition-math6 -- found version 6.15.1
+[0.794s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[0.794s] -- Searching for dependencies of ignition-fuel_tools4
+[0.830s] -- Checking for module 'jsoncpp'
+[0.841s] --   Found jsoncpp, version 1.9.5
+[0.871s] -- Checking for module 'libzip'
+[0.881s] --   Found libzip, version 1.7.3
+[0.908s] -- Looking for ignition-common3 -- found version 3.14.0
+[0.908s] -- Looking for ignition-math6 -- found version 6.15.1
+[0.909s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[0.910s] -- Gazebo version: 11.10
+[0.911s] -- Found gazebo_ros: 3.9.0 (/opt/ros/humble/share/gazebo_ros/cmake)
+[0.914s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.946s] -- Found tf2_ros: 0.25.16 (/opt/ros/humble/share/tf2_ros/cmake)
+[1.032s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.039s] -- Found livox_ros_driver2: 1.0.0 (/home/kentaro/mid360-simulation/install/livox_ros_driver2/share/livox_ros_driver2/cmake)
+[1.084s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[1.112s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[1.411s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[1.417s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[1.575s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[1.581s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[1.587s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[1.735s] -- Found Qhull version 8.0.2
+[1.886s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[2.071s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono 
+[2.078s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.413s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.418s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.419s] -- Configured cppcheck include dirs: /home/kentaro/mid360-simulation/src/livox_laser_simulation_RO2/include
+[2.419s] -- Configured cppcheck exclude dirs and/or files: 
+[2.421s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.421s] -- Configured cpplint exclude dirs and/or files: 
+[2.423s] -- Added test 'lint_cmake' to check CMake code style
+[2.425s] -- Added test 'uncrustify' to check C / C++ code style
+[2.426s] -- Configured uncrustify additional arguments: 
+[2.426s] -- Added test 'xmllint' to check XML markup files
+[2.428s] -- Configuring done
+[2.457s] -- Generating done
+[2.464s] -- Build files have been written to: /home/kentaro/mid360-simulation/build/ros2_livox_simulation
+[2.482s] Invoked command in '/home/kentaro/mid360-simulation/build/ros2_livox_simulation' returned '0': AMENT_PREFIX_PATH=/home/kentaro/mid360-simulation/install/livox_ros_driver2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kentaro/mid360-simulation/install/livox_ros_driver2:/opt/ros/humble LD_LIBRARY_PATH=/home/kentaro/mid360-simulation/install/livox_ros_driver2/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/kentaro/mid360-simulation/install/livox_ros_driver2/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/kentaro/mid360-simulation/src/livox_laser_simulation_RO2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/kentaro/mid360-simulation/install/ros2_livox_simulation
+[2.484s] Invoking command in '/home/kentaro/mid360-simulation/build/ros2_livox_simulation': AMENT_PREFIX_PATH=/home/kentaro/mid360-simulation/install/livox_ros_driver2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kentaro/mid360-simulation/install/livox_ros_driver2:/opt/ros/humble LD_LIBRARY_PATH=/home/kentaro/mid360-simulation/install/livox_ros_driver2/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/kentaro/mid360-simulation/install/livox_ros_driver2/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/kentaro/mid360-simulation/build/ros2_livox_simulation -- -j8 -l8
+[2.531s] [35m[1mConsolidate compiler generated dependencies of target ros2_livox[0m
+[2.568s] [100%] Built target ros2_livox
+[2.579s] Invoked command in '/home/kentaro/mid360-simulation/build/ros2_livox_simulation' returned '0': AMENT_PREFIX_PATH=/home/kentaro/mid360-simulation/install/livox_ros_driver2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kentaro/mid360-simulation/install/livox_ros_driver2:/opt/ros/humble LD_LIBRARY_PATH=/home/kentaro/mid360-simulation/install/livox_ros_driver2/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/kentaro/mid360-simulation/install/livox_ros_driver2/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/kentaro/mid360-simulation/build/ros2_livox_simulation -- -j8 -l8
+[2.580s] Invoking command in '/home/kentaro/mid360-simulation/build/ros2_livox_simulation': AMENT_PREFIX_PATH=/home/kentaro/mid360-simulation/install/livox_ros_driver2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kentaro/mid360-simulation/install/livox_ros_driver2:/opt/ros/humble LD_LIBRARY_PATH=/home/kentaro/mid360-simulation/install/livox_ros_driver2/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/kentaro/mid360-simulation/install/livox_ros_driver2/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/kentaro/mid360-simulation/build/ros2_livox_simulation
+[2.588s] -- Install configuration: ""
+[2.588s] -- Execute custom install script
+[2.589s] -- Up-to-date symlink: /home/kentaro/mid360-simulation/install/ros2_livox_simulation/include/ros2_livox/csv_reader.hpp
+[2.589s] -- Up-to-date symlink: /home/kentaro/mid360-simulation/install/ros2_livox_simulation/include/ros2_livox/livox_ode_multiray_shape.h
+[2.589s] -- Up-to-date symlink: /home/kentaro/mid360-simulation/install/ros2_livox_simulation/include/ros2_livox/livox_points_plugin.h
+[2.589s] -- Up-to-date symlink: /home/kentaro/mid360-simulation/install/ros2_livox_simulation/lib/libros2_livox.so
+[2.590s] -- Up-to-date symlink: /home/kentaro/mid360-simulation/install/ros2_livox_simulation/share/ros2_livox_simulation/environment/library_path.sh
+[2.590s] -- Up-to-date symlink: /home/kentaro/mid360-simulation/install/ros2_livox_simulation/share/ros2_livox_simulation/environment/library_path.dsv
+[2.590s] -- Up-to-date symlink: /home/kentaro/mid360-simulation/install/ros2_livox_simulation/share/ros2_livox_simulation/scan_mode/mid40.csv
+[2.591s] -- Up-to-date symlink: /home/kentaro/mid360-simulation/install/ros2_livox_simulation/share/ros2_livox_simulation/scan_mode/mid70.csv
+[2.591s] -- Up-to-date symlink: /home/kentaro/mid360-simulation/install/ros2_livox_simulation/share/ros2_livox_simulation/scan_mode/mid360.csv
+[2.591s] -- Up-to-date symlink: /home/kentaro/mid360-simulation/install/ros2_livox_simulation/share/ros2_livox_simulation/scan_mode/tele.csv
+[2.591s] -- Up-to-date symlink: /home/kentaro/mid360-simulation/install/ros2_livox_simulation/share/ros2_livox_simulation/scan_mode/horizon.csv
+[2.592s] -- Up-to-date symlink: /home/kentaro/mid360-simulation/install/ros2_livox_simulation/share/ros2_livox_simulation/scan_mode/HAP.csv
+[2.592s] -- Up-to-date symlink: /home/kentaro/mid360-simulation/install/ros2_livox_simulation/share/ros2_livox_simulation/scan_mode/avia.csv
+[2.592s] -- Up-to-date symlink: /home/kentaro/mid360-simulation/install/ros2_livox_simulation/share/ros2_livox_simulation/urdf/mid40.xacro
+[2.592s] -- Up-to-date symlink: /home/kentaro/mid360-simulation/install/ros2_livox_simulation/share/ros2_livox_simulation/urdf/mid70.xacro
+[2.592s] -- Up-to-date symlink: /home/kentaro/mid360-simulation/install/ros2_livox_simulation/share/ros2_livox_simulation/urdf/mid360.xacro
+[2.592s] -- Up-to-date symlink: /home/kentaro/mid360-simulation/install/ros2_livox_simulation/share/ros2_livox_simulation/urdf/tele.xacro
+[2.593s] -- Up-to-date symlink: /home/kentaro/mid360-simulation/install/ros2_livox_simulation/share/ros2_livox_simulation/urdf/horizon.xacro
+[2.593s] -- Up-to-date symlink: /home/kentaro/mid360-simulation/install/ros2_livox_simulation/share/ros2_livox_simulation/urdf/HAP.xacro
+[2.593s] -- Up-to-date symlink: /home/kentaro/mid360-simulation/install/ros2_livox_simulation/share/ros2_livox_simulation/urdf/avia.xacro
+[2.593s] -- Up-to-date symlink: /home/kentaro/mid360-simulation/install/ros2_livox_simulation/share/ament_index/resource_index/package_run_dependencies/ros2_livox_simulation
+[2.593s] -- Up-to-date symlink: /home/kentaro/mid360-simulation/install/ros2_livox_simulation/share/ament_index/resource_index/parent_prefix_path/ros2_livox_simulation
+[2.594s] -- Up-to-date symlink: /home/kentaro/mid360-simulation/install/ros2_livox_simulation/share/ros2_livox_simulation/environment/ament_prefix_path.sh
+[2.594s] -- Up-to-date symlink: /home/kentaro/mid360-simulation/install/ros2_livox_simulation/share/ros2_livox_simulation/environment/ament_prefix_path.dsv
+[2.594s] -- Up-to-date symlink: /home/kentaro/mid360-simulation/install/ros2_livox_simulation/share/ros2_livox_simulation/environment/path.sh
+[2.594s] -- Up-to-date symlink: /home/kentaro/mid360-simulation/install/ros2_livox_simulation/share/ros2_livox_simulation/environment/path.dsv
+[2.594s] -- Up-to-date symlink: /home/kentaro/mid360-simulation/install/ros2_livox_simulation/share/ros2_livox_simulation/local_setup.bash
+[2.595s] -- Up-to-date symlink: /home/kentaro/mid360-simulation/install/ros2_livox_simulation/share/ros2_livox_simulation/local_setup.sh
+[2.595s] -- Up-to-date symlink: /home/kentaro/mid360-simulation/install/ros2_livox_simulation/share/ros2_livox_simulation/local_setup.zsh
+[2.595s] -- Up-to-date symlink: /home/kentaro/mid360-simulation/install/ros2_livox_simulation/share/ros2_livox_simulation/local_setup.dsv
+[2.595s] -- Symlinking: /home/kentaro/mid360-simulation/install/ros2_livox_simulation/share/ros2_livox_simulation/package.dsv
+[2.604s] -- Up-to-date symlink: /home/kentaro/mid360-simulation/install/ros2_livox_simulation/share/ament_index/resource_index/packages/ros2_livox_simulation
+[2.604s] -- Up-to-date symlink: /home/kentaro/mid360-simulation/install/ros2_livox_simulation/share/ros2_livox_simulation/cmake/ament_cmake_export_libraries-extras.cmake
+[2.604s] -- Up-to-date symlink: /home/kentaro/mid360-simulation/install/ros2_livox_simulation/share/ros2_livox_simulation/cmake/ros2_livox_simulationConfig.cmake
+[2.604s] -- Up-to-date symlink: /home/kentaro/mid360-simulation/install/ros2_livox_simulation/share/ros2_livox_simulation/cmake/ros2_livox_simulationConfig-version.cmake
+[2.604s] -- Up-to-date symlink: /home/kentaro/mid360-simulation/install/ros2_livox_simulation/share/ros2_livox_simulation/package.xml
+[2.606s] Invoked command in '/home/kentaro/mid360-simulation/build/ros2_livox_simulation' returned '0': AMENT_PREFIX_PATH=/home/kentaro/mid360-simulation/install/livox_ros_driver2:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kentaro/mid360-simulation/install/livox_ros_driver2:/opt/ros/humble LD_LIBRARY_PATH=/home/kentaro/mid360-simulation/install/livox_ros_driver2/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/kentaro/mid360-simulation/install/livox_ros_driver2/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/kentaro/mid360-simulation/build/ros2_livox_simulation
