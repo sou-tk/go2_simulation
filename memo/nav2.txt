@@ -1,0 +1,28 @@
+設定ファイルの作成 (no_map_params.yaml)
+デフォルトの設定（地図あり用）を改造し、「地図なし・狭所対応」 のパラメータファイルを作成
+
+主要な変更点
+
+    Static Layer の削除: 地図サーバーからの入力を無効化。
+
+    Rolling Window の有効化: rolling_window: true、width/height: 50（整数指定）。
+
+    プラグインの選別: Humble環境でエラーが出るBTプラグイン（drive_on_heading 等）をリストから削除。
+
+
+
+パラメータの変更
+
+スリム化（狭所対策）:
+
+    robot_radius: 0.2 (小さくして通りやすく)
+
+    inflation_radius: 0.35 (壁からの圧迫感を減らす)
+
+    cost_scaling_factor: 10.0 (安全地帯を広く取る)
+
+コントローラの勇敢化:
+
+    BaseObstacle.scale: 0.01 (壁に近づく恐怖心を下げる)
+
+    PathAlign.scale: 60.0 (パスに沿う意志を強くする)
